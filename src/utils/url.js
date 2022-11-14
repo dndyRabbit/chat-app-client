@@ -1,1 +1,1 @@
-export const host = "http://localhost:2600";
+export const host = "https://chat-app-rabbit-server.herokuapp.com";

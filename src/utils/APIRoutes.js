@@ -2,7 +2,7 @@ import axios from "axios";
 import { getAccessToken, getRefreshToken } from "../utils/token";
 
 const axiosAPI = axios.create({
-  baseURL: "http://localhost:2600/api/",
+  baseURL: "https://chat-app-rabbit-server.herokuapp.com/api/",
   headers: {
     // Authorization: `Bearer ${getAccessToken()}`,
     "Content-Type": "application/json;charset=UTF-8",
